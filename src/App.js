@@ -7,7 +7,7 @@ import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 import CheckoutPage from './pages/checkoutpage/checkout.component';
 import HomePage from './pages/homepage/homepage.component';
-import ShopPage from './pages/shoppage/shoppage.component';
+import ShopPage from './pages/shoppage/shop.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up-page/sign-in-and-sign-up-page.component';
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
