@@ -32,7 +32,9 @@ const CheckoutPage = ({cartItems,total}) => (
         <div className='total'>
             <span>TOTAL: ${total}</span>
         </div>
-        <StripeCheckoutButton price={total}/>
+        {
+            total !== 0 ? <StripeCheckoutButton price={total}/> : null
+        }
     </div>
 )
 

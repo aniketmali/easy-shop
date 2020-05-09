@@ -49,10 +49,20 @@ export const invertedButtonStyles = css`
     background-color: white;
     color: black;
     border: 1px solid black;
+    position: absolute;
+    top: 255px;
+    width: 80%;    
+    opacity: 0.7;
 
     &:hover {
       background-color: black;
       color: white;
       border: none;
+      opacity: 0.85;
+      display: flex;
+
+      .image {
+        opacity: 0.8;
+      }
     }
 `
